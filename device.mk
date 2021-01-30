@@ -333,6 +333,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# SystemUIGoogle package
+PRODUCT_PACKAGES += \
+    SystemUIGoogleOverlayHentai
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext \
