@@ -107,6 +107,9 @@ TARGET_NO_RECOVERY := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Product prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mata
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery.wipe
