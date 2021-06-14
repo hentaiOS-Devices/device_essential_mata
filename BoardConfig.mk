@@ -148,5 +148,8 @@ WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
+# Verified boot
+BOARD_AVB_ENABLE := false
+
 # Inherit from the proprietary version
 include vendor/essential/mata/BoardConfigVendor.mk
